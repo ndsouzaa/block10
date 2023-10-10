@@ -1,0 +1,41 @@
+/* form{
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
+}*/
+
+
+#submitbtn{
+  grid-column: span 2;
+  width: 100px;
+  justify-self: center;
+  /* background-color:greenyellow */
+  } 
+
+  form{
+    display: flex;
+    flex-wrap:wrap;
+    }
+    .form-item{
+      background-color: lightgoldenrodyellow;
+      padding: 5px;
+    }
+
+    input{
+      background-color: lightgreen;
+    }
+
+    form label:nth-child(odd){
+      color:crimson;
+    }
+
+    #blue-box {
+      background-color:blue;
+      height:150px;
+      width:150px;
+      position:fixed;
+      z-index:-1;
+    }
+    body{
+      font-size:calc(16px + 0.5vw);
+    }
